@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "litematica_schematic_sync",
+  "version": "${version}",
+  "name": "Litematica Schematic Sync",
+  "description": "Cloud, LAN, and GitHub Gist schematic synchronization companion mod for Litematica on Fabric.",
+  "authors": [
+    "slopggobblercobbler81"
+  ],
+  "contact": {
+    "homepage": "https://github.com/slopggobblercobbler81/litematica-schematic-sync",
+    "sources": "https://github.com/slopggobblercobbler81/litematica-schematic-sync",
+    "issues": "https://github.com/slopggobblercobbler81/litematica-schematic-sync/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/litematica_schematic_sync/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.slopggobbler.schematicsync.LitematicaSchematicSyncMod"
+    ]
+  },
+  "mixins": [
+    "litematica_schematic_sync.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "~${minecraft_version}",
+    "litematica": "*",
+    "malilib": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

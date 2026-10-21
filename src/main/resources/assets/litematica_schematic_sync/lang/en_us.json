@@ -1,0 +1,43 @@
+{
+  "litematica_schematic_sync.name": "Litematica Schematic Sync",
+  "litematica_schematic_sync.description": "Cloud, LAN, and GitHub Gist schematic synchronization companion mod for Litematica on Fabric.",
+
+  "litematica_schematic_sync.config.category.generic": "Generic",
+  "litematica_schematic_sync.config.category.gist": "GitHub Gist Sync",
+  "litematica_schematic_sync.config.category.lan": "LAN Peer Discovery",
+  "litematica_schematic_sync.config.category.hotkeys": "Hotkeys",
+
+  "litematica_schematic_sync.config.option.enable_auto_discovery": "Enable LAN Auto-Discovery",
+  "litematica_schematic_sync.config.comment.enable_auto_discovery": "Automatically broadcast and listen for schematic peers on the local subnet via UDP multicast / mDNS.",
+  
+  "litematica_schematic_sync.config.option.lan_discovery_port": "LAN Discovery Port",
+  "litematica_schematic_sync.config.comment.lan_discovery_port": "UDP port used for broadcasting discovery heartbeats (default 25575).",
+  
+  "litematica_schematic_sync.config.option.lan_transfer_port": "LAN Transfer Port",
+  "litematica_schematic_sync.config.comment.lan_transfer_port": "TCP port used for direct peer-to-peer schematic streaming (default 25576).",
+
+  "litematica_schematic_sync.config.option.github_token": "GitHub Personal Access Token",
+  "litematica_schematic_sync.config.comment.github_token": "Fine-grained or classic token with 'gist' scope to enable automated cloud upload/download.",
+
+  "litematica_schematic_sync.config.option.gist_public": "Gists Public by Default",
+  "litematica_schematic_sync.config.comment.gist_public": "When true, newly uploaded schematic gists are publicly viewable. False creates secret unlisted gists.",
+
+  "litematica_schematic_sync.config.option.auto_backup": "Auto-Backup Before Overwrite",
+  "litematica_schematic_sync.config.comment.auto_backup": "Create a timestamped backup in schematics/.backup before replacing an existing schematic file.",
+
+  "litematica_schematic_sync.config.option.notification_toast": "Show Toast Notifications",
+  "litematica_schematic_sync.config.comment.notification_toast": "Display in-game toast popups when schematics are sent, received, or discovered.",
+
+  "litematica_schematic_sync.hotkey.open_sync_gui": "Open Schematic Sync Manager",
+  "litematica_schematic_sync.hotkey.quick_share_lan": "Quick Share Active Schematic via LAN",
+  "litematica_schematic_sync.hotkey.quick_upload_gist": "Quick Upload Active Schematic to Gist",
+
+  "litematica_schematic_sync.chat.prefix": "[SchematicSync] ",
+  "litematica_schematic_sync.chat.peer_discovered": "Discovered LAN peer: %s (%s)",
+  "litematica_schematic_sync.chat.peer_disconnected": "Peer disconnected: %s",
+  "litematica_schematic_sync.chat.gist_uploaded": "Uploaded schematic '%s' to Gist: %s",
+  "litematica_schematic_sync.chat.gist_downloaded": "Downloaded schematic '%s' from Gist (%d bytes)",
+  "litematica_schematic_sync.chat.lan_sent": "Sent '%s' to peer %s (%d bytes)",
+  "litematica_schematic_sync.chat.lan_received": "Received schematic '%s' from peer %s",
+  "litematica_schematic_sync.chat.error": "Sync error: %s"
+}
