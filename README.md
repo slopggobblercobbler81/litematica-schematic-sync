@@ -14,3 +14,8 @@ To verify schematic synchronization:
 1. Ensure both clients have `litematica-schematic-sync` installed along with `litematica` and `malilib`.
 2. Configure your GitHub token in the mod config screen or via command (`/schematic-sync gist <token>`).
 3. Save or load a schematic in Litematica; changes will automatically be broadcasted or fetched from the configured Gist or local LAN peers.
+
+
+## Mod Menu Integration
+
+Configure GitHub Gists and sync intervals directly via Mod Menu or in-game commands.
