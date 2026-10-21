@@ -45,8 +45,8 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     // MaLiLib & Litematica
-    modImplementation "fi.dy.masa.malilib:malilib-fabric-${project.minecraft_version}:${project.malilib_version}"
-    modImplementation "fi.dy.masa.litematica:litematica-fabric-${project.minecraft_version}:${project.litematica_version}"
+    modImplementation "maven.modrinth:malilib-fabric-1.21.4:${project.malilib_version}"
+    modImplementation "maven.modrinth:litematica-fabric-1.21.4:${project.litematica_version}"
 }
 
 processResources {
