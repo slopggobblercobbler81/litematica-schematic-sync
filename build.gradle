@@ -45,8 +45,9 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     // MaLiLib & Litematica
-    modImplementation "maven.modrinth:malilib-fabric-1.21.4:${project.malilib_version}"
-    modImplementation "maven.modrinth:litematica-fabric-1.21.4:${project.litematica_version}"
+    modImplementation "maven.modrinth:malilib:${project.malilib_version}"
+    modImplementation "maven.modrinth:litematica:${project.litematica_version}"
+    testImplementation "org.junit.jupiter:junit-jupiter:5.10.2"
 }
 
 processResources {
@@ -88,4 +89,9 @@ publishing {
 
     repositories {
     }
+}
+
+
+test {
+    useJUnitPlatform()
 }

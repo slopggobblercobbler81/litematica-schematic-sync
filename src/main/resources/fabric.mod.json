@@ -18,6 +18,9 @@
   "entrypoints": {
     "client": [
       "me.slopggobbler.schematicsync.LitematicaSchematicSyncMod"
+    ],
+    "modmenu": [
+      "me.slopggobbler.schematicsync.compat.ModMenuIntegration"
     ]
   },
   "mixins": [
