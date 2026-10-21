@@ -1,0 +1,2 @@
+f8dff66793403c70468299ec77134a7d5bd63d65dd1e666b940431815810dd5f  litematica-schematic-sync-1.0.0-sources.jar
+9628fc5d127d50627756ea104d1cc7ed785b1f0bb9b9d61df7ef168dae79edef  litematica-schematic-sync-1.0.0.jar
